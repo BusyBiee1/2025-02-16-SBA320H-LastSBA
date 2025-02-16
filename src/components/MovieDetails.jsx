@@ -5,3 +5,9 @@ function MovieDetails() {
     const { id } = useParams();
     const [movie, setMovie] = useState(null);
     //const API_KEY = "cd171968";
+
+    return (
+        <div>
+        </div>
+      );
+    };
