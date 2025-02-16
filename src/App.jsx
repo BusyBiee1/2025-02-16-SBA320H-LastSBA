@@ -4,5 +4,15 @@ import MovieList from './components/MovieList';
 import MovieDetails from './components/MovieDetails';
 import './App.css';
 
-
-export default app;
+function App() {
+    return (
+      <Router>
+        <div className="app">
+          <h1>Welcome to the Movie Explorer</h1>
+          
+        </div>
+      </Router>
+    );
+  };
+  
+  export default App;
