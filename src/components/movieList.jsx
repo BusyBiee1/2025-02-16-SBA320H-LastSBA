@@ -20,8 +20,25 @@ function MovieList() {
   }, [search]);
 
   return (
-    
-
+    <div className="movie-list">
+      <h2>Movie List</h2>
+      <input
+        type="text"
+        placeholder="Search for movies..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+      <div className="movies">
+        {movies.map((movie) => (
+          <div key={movie.imdbID} className="movie-card">
+            <img src={movie.Poster} alt={movie.Title} />
+            <h3>{movie.Title}</h3>
+            <Link to={`/movies/${movie.imdbID}`}>View Details</Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default MovieList;

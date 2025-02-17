@@ -5,14 +5,20 @@ import MovieDetails from './components/MovieDetails';
 import './App.css';
 
 function App() {
-    return (
-      <Router>
-        <div className="app">
-          <h1>Welcome to the Movie Explorer</h1>
-          
-        </div>
-      </Router>
-    );
-  };
-  
-  export default App;
+  return (
+    <Router>
+      <div className="app">
+        <h1>Welcome to the Movie Explorer</h1>
+        <nav>
+          <Link to="/movies">Explore Movies</Link>
+        </nav>
+        <Routes>
+          <Route path="/movies" element={<MovieList />} />
+          <Route path="/movies/:id" element={<MovieDetails />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
+
+export default App;
