@@ -1,7 +1,17 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.app {
   text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
