@@ -22,6 +22,7 @@ function MovieList() {
   return (
     <div className="movie-list">
       <h2>Movie List</h2>
+      <label htmlFor="movieSearch">Search movies:</label> {/* Added label */}
       <input
         type="text"
         placeholder="Search for movies..."

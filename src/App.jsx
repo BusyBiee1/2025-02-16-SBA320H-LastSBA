@@ -1,14 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import MovieList from './components/MovieList';
-import MovieDetails from './components/MovieDetails';
+import MovieList from './components/MovieList/MovieList';
+import MovieDetails from './components/MovieDetails/MovieDetails';
 import Home from './components/Home'; // Import the Home component
+import bannerImage from './assets/images/BannerPopcorn.jpg'; // Import the banner image
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="app">
+        <img src={bannerImage} alt="Movie Banner" className="banner" /> {/* Add the banner image */}
         <h1>Welcome to the Movie Explorer</h1>
         <nav>
           < Link to="/" className="link">Home</Link> {/* Add class here */}

@@ -4,12 +4,27 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex; /* Enable flexbox for vertical alignment */
+  flex-direction: column; /* Stack elements vertically */
+  min-height: 100vh; /* Ensure container takes full viewport height */
+}
+
+.banner {
+  width: 100%;
+  max-height: 200px; /* Adjust as needed */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  margin-bottom: 20px; /* Space below the banner */
+}
+
+nav { /* Style the navigation within the app container */
+  margin-bottom: 20px; /* Space below the navigation */
 }
 
 nav a {
   text-decoration: none;
   color: #007bff;
   font-size: 18px;
+  margin: 0 15px; /* Space between links */
 }
 
 nav a:hover {
