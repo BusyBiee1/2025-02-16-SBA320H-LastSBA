@@ -2,14 +2,18 @@
 
 # Movie Explorer
 
-Movie Explorer is a React-based web application that allows users to search for movies and view detailed information about them. The application uses the OMDB API to fetch movie data and demonstrates the use of React features like `useState`, `useEffect`, `react-router-dom`, and more.
+- Movie Explorer is a React-based web application that allows users to search for 
+movies and view detailed information about them. 
+- The application uses the OMDB API to fetch movie data and demonstrates the use 
+of React features like `useState`, `useEffect`, `react-router-dom`, `link` and more.
 
 ---
 
 ## Features
 
 - **Search Movies**: Users can search for movies by title.
-- **View Movie Details**: Users can click on a movie to view detailed information, including the plot, genre, director, and actors.
+- **View Movie Details**: Users can click on a movie to view detailed information, 
+including the plot, genre, director, and actors.
 - **Responsive Design**: The application is mobile-friendly and centered in the browser.
 
 ---
@@ -26,7 +30,7 @@ Movie Explorer is a React-based web application that allows users to search for 
 
 ## Project Structure
 
-movie-explorer/
+movie-explorer - LastSBA/
 ├── public/
 │ ├── index.html
 ├── src/
