@@ -30,12 +30,18 @@ movie-explorer/
 ├── public/
 │ ├── index.html
 ├── src/
+│ ├── assets/
+│ │ ├── images/
+│ │ │ ├── BannerPopcorn.jsx
+│ │ │ ├── BannerPopcornReel.jsx
 │ ├── components/
-│ │ ├── MovieList.jsx
-│ │ ├── MovieDetails.jsx
-│ │ ├── MovieList.css
-│ │ ├── MovieDetails.css
-│ ├── App.jsx
+│ │ ├── MovieList/
+│ │ │ ├── MovieList.jsx
+│ │ │ ├── MovieList.css
+│ │ ├── MovieDetails/
+│ │ │ ├── MovieDetails.jsx
+│ │ │ ├── MovieDetails.css
+│ │ ├── Home.jsx
 │ ├── App.css
 │ ├── index.css
 │ ├── main.jsx
